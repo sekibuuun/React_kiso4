@@ -1,0 +1,36 @@
+.introduction {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 3px solid #ccc;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .link {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+}
