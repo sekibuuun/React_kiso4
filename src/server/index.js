@@ -10,17 +10,17 @@ const app = express();
 const port = 9000;
 
 app.get('/', (req, res) => {
-  const appContent = ReactDOMServer.renderToString(<App />);
+  const app = ReactDOMServer.renderToString(<App />);
   res.send(
     `
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Introduction Page</title>
+          <title>Sekibuuun</title>
           <link href="/style.css" rel="stylesheet" type="text/css">
         </head>
         <body>
-          <div id="root">${appContent}</div>
+          <div id="root">${app}</div>
         </body>
       </html>
     `
