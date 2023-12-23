@@ -4,7 +4,7 @@ import "regenerator-runtime/runtime";
 import React from "react";
 import ReactDOMServer from "react-dom/server";
 import {App} from "../App.tsx";
-import '../styles/App.scss';
+import '../styles/index.scss';
 
 const app = express();
 const port = 9000;
